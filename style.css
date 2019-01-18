@@ -1,28 +1,70 @@
 /*This is the CSS Sheet for the First Part of Homework 1 */
+*{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
 
 body{
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color:#777;
     background:#777;
     width:960px;
-    font-size:18px;
+    font-size:18px auto;
+    font-weight: normal;
 }
 
 .container{
-	width:80%;
 	margin:auto;
-	overflow:hidden;
+    overflow:hidden;
 }
 
 #main-header,
-#main-nav,
+#navbar,
 #main-section,
 #sidebar,
 #main-footer{
     background:#ebebeb;
+    font-size:18px auto;
+    font-weight:normal;
 }
 
 #main-article{
     color:#ebebeb;
-    background#777;
+    background:#777;
+    font-weight: normal;
+}
+
+#main-h,
+#main-p{
+    background:#ebebeb;
+    color: #777;
+    font-size:18px auto;
+    font-weight:bold;
+}
+
+#main-section{
+    float:left;
+    width: 70%;
+}
+
+#sidebar{
+    float:left;
+    width: 30%;
+}
+
+
+#main-footer{
+    clear: both;
+    font-size:18px;
+    font-weight:normal;
+    overflow:auto;
+}
+
+*h1,
+*p{
+    color:#777;
+    background:#ebebeb;
+    font-size:18px;
 }
